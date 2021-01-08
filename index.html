@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Page d'accueil</title>
 </head>
+
 <body>
     <header>
-       <!-- <div class="hexagon"></div>-->
-       <div class="icone"><i class="fas fa-user"></i></div>
-       <img src="logosolidaireblanc.png" alt="">
-       <div id="nid">
+        <!-- <div class="hexagon"></div>-->
+        <div class="icone"><i class="fas fa-user"></i></div>
+        <a href="index.html"><img src="logosolidaireblanc.png" alt=""></a>
+        <div id="nid">
 
-           <img  src="nid.png" alt="">
-       </div>
+            <img src="nid.png" alt="">
+        </div>
         <nav>
             <ul>
-                   <li class="violet"><a href="#"> JE M'INFORME </a> </li> 
-                   <li class="bleu"><a href=""> DÉCOUVRIR LES ACTEURS </a></li> 
-                   <li class="blue"><a href=""> JE M'ENGAGE</a></li> 
+                <li class="violet"><a href="#"> JE M'INFORME </a> 
+                <ul class="sous">
+                    <li><a href="">Articles à la une</a></li>
+                    <li><a href="">Les plus consultés</a></li>
+                    <li><a href="">Thématiques (solidarité, environnement...)</a></li>
+                </ul>
+            </li>
+                <li class="bleu"><a href=""> DÉCOUVRIR LES ACTEURS </a></li>
+                <li class="blue"><a href=""> JE M'ENGAGE</a>
+                    <ul class="sous">
+                        <li><a href="">Bénovolement</a></li>
+                        <li><a href="">Don financier</a></li>
+                        <li><a href="">Don matériel</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
 
@@ -28,10 +42,11 @@
         <video id="video" controls autoplay loop>
             <source src="video-test.mp4" type="video/mp4" controls>
         </video>
-    </main>   
     </main>
- <script src="accueil.js"></script>   
- <script src="https://kit.fontawesome.com/1995bd8007.js" crossorigin="anonymous"></script>
+    </main>
+    <script src="accueil.js"></script>
+    <script src="https://kit.fontawesome.com/1995bd8007.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

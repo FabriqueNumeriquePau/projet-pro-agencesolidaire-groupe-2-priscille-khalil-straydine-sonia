@@ -5,6 +5,12 @@ body{
 header{
     background-color: #2C3164;
 }
+.logob{
+  width: 27.8em;
+  height: 13.5em;
+  left: 0.24em;
+  top: -0.45em;
+}
 nav{
   z-index: 10;
   position: relative;
@@ -13,22 +19,34 @@ nav{
  position: absolute; 
   right: 0;
   top: 0;
-  height: 250px;
+  height: 15em;
 }
 #nid img{
   max-height: 100%;
 }
 .icone .fa-user{
     color: white;
-    margin-top: 20px;
+    margin-top: 3em;
     position: absolute;
     right: 0;
-    margin-right: 30px;
+    margin-right: 7.6em;
+    float: right;
+    font-size: 1.5em;
+}
+main{
+  height: 40.2em;
 }
 #video{
-  margin-top: 20px;
-  height: 670px;
+  margin-top: 1.2em;
+  height: 40.2em;
   width: 100%;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #2C3164;
+  opacity: 0.5;
 }
   
 .menu{
@@ -44,60 +62,140 @@ nav{
     font-size: 24px;
     font-weight: bold;
     color: white;   
-    width: 355px;
-    height: 50px;
+    width: 21.3em;
+    height: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .sousmenu{
   display: none;
+  position: absolute;
   background-color: #0E1779;
-    padding: 0;
-    margin: 0;
-
+  top: 100%;
+  width: 21.3em;
+  z-index: 1;
 }
+
 .sousmenu li {
-  height: 70px;
+  height: 4.2em;
   width: auto;
   text-align: center;
   font-family:sans-serifcomic;
-    font-size: 20px;
-    font-weight: normal;
-  
+  font-size: 1.2em;
+  font-weight: normal; 
 }
+
 ul li:hover .sousmenu{
-  display: block;
-  
+  display: block;  
 }
+
 .sousmenu a{
-  padding: 0;
-  margin: 0;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
 }
 
 .sousmenu a:hover{
-  /*border-bottom: none;*/
+
   color: #FFFFFF;
   font-family:sans-serifcomic;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
+.violet:hover .sousmenu {
+  display: block;
+}
 
-.violet
-{
+.violet{
     background: #47316F;
 }
+
 .bleu{
    background: #555C8F;
 }
-.blue
-{
+
+.blue{
     background: #1E72B9;
 }
+
 li a{
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
+}
 
-    
+footer{
+  background-color: #2C3164;
+  height: 24em;
+}
+.picture{ 
+  position: absolute;
+  left: 3.12em;
+  bottom: -20em;
+  height: 13.3em;
+}
+ #logo{
+  height:13.14em;
+  width: 26.94em;
+}
+footer .categories{
+  display: block;
+}
+.cat{
+  padding-top: 2em;
+  padding-left: 50em;
+  
+}
+.categories li{
+  list-style: none;
+  font-style: normal;
+  font-size: 1.8em;
+  color: white;
+  left: 40em;
+  margin-top: 0.42em;
+}
+.logos{
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom: -15em;
+}
+.logo{
+  font-size: 3em;
+  color: white;
+  padding-right: 0.5em;
+}
+#newsletter
+{
+  position: absolute;
+  width: 22.8em;
+  height: 2.1em;
+  left: 65em;
+  background: #FFFFFF;
+  border-radius: 0.6em;
+}
+#bouton{
+  position: absolute;
+background-color: #1E72B9;
+right: 43em;
+color: white;
+margin-top: 0.6em;
+}
+.pol{
+position: absolute;
+height: 0.78em;
+right: 67.5em;
+bottom: -33em;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 0.72em;
+line-height: 0.84em;
+color: white;
+}
+.copyright{
+  height: auto;
+  font-size: 1.5em;
+  text-align: center;
 }

@@ -1,19 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
 video{
     margin: auto;
     padding: auto;
-    width: 1400px;
+    width: 100%;
     height: 670px;
     display: block;
-    opacity: rgba(0, 0, 0, 0.46);
     background-attachment: fixed;
 }
 
 #conteneur {
-    margin-left: 550px;
     margin-top: -390px;
     padding: auto;
-    width: 740px;
+    width: 80%;
     height: 60px;
     display: block;
     border-radius: 10px;

@@ -1,11 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 
 h1 {
-position: absolute;
 width: 1325px;
 height: 54px;
 left: 52px;
@@ -22,13 +22,18 @@ color: #1E72B9;
 
 .nid1 {
   position: absolute;
-  top: 300px;
+  top: 30px;
+  left: 0;
+  height: 1000px;
+  z-index: -1;
 }
 
 .nid2 {
   position: absolute;
   right: 0;
-  top: 300px;
+  top: 30px;
+  height: 1000px;
+  z-index: -1;
 }
   .leshexagones {
     display: flex;
@@ -81,7 +86,29 @@ color: #1E72B9;
 /* l'image du bas */ 
 
   .lyon {
-    position: absolute;
+    
     width: 100%;
     margin-top: 64px;
+  }
+
+  /* Vos Actions */
+
+  .actions {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #2C3164;
+    color: white;
+    padding-top: 5em;
+    text-align: center;
+  }
+
+  /* Les icones */
+
+  .fa-hand-holding-heart {
+    font-size: 14em;
+  }
+ 
+  .fa-people-carry {
+    font-size: 14em;
   }

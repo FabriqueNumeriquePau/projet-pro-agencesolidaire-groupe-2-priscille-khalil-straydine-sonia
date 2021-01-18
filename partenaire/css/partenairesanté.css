@@ -195,16 +195,16 @@ body {
 
 /*main*/
 
-    body >main{
+    body > main{
         min-height: 50em;
         background-color: white;
 
     }
     /*SECTION*/
 
-    body > section{
+    body > main > section{
         min-height: 50em;
-  background-color: white;
+  background-color: #2C3164;
     }
 
     h1{

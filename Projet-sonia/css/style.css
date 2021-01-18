@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+    background-color: #2C3164;
+}
+nav{
+  z-index: 10;
+  position: relative;
+}
+#nid{
+ position: absolute; 
+  right: 0;
+  top: 0;
+  height: 15em;
+}
+#nid img{
+  max-height: 100%;
+}
+.icone .fa-user{
+    color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 7.3em;
+    margin-top: 3.1em;
+    font-size: 1.5em;
+}
+#video{
+  margin-top: 1.2em;
+  height: 40.2em;
+  width: 100%;
+}
+  
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    font-family:sans-serifcomic;
+    font-size: 1em;
+    color: white;   
+    width: 15em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.violet
+{
+    background: #47316F;
+    
+}
+.bleu{
+   background: #555C8F;
+   
+}
+.blue
+{
+    background: #1E72B9;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.sous {
+  display: none;
+  position: absolute;
+  background-color: #0E1779;
+  top: 100%;
+  width: 15em;
+  z-index: 1;
+}
+
+.sous a {
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.sous a:hover {
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blue:hover .sous {
+  display: block;
+}
+.violet:hover .sous {
+  display: block;
+}

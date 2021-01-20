@@ -5,12 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style css/style.css">
+    <link rel="stylesheet" href="./style css/connexion.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Accueil</title>
 </head>
 
 <body>
     <header>
-        <div class="icone"><i class="far fa-user-circle"></i></div>
+        <div class="icone">
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn-connex" data-toggle="modal" data-target="#myModal">
+                <i class="far fa-user-circle"></i></button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="far fa-times-circle"></i></button>
+
+                    <div class="hex">
+                        <img class="hexablue" src="./assets/hexablue.png" alt="">
+                        <i class="far fa-user-circle"></i>
+                    </div>
+
+                    <div class="modal-connexion">
+                        <p class="login">Login</p>
+                        <div class="mesinputs">
+                            <input type="text" id="login" name="login" placeholder="********">
+                        </div>
+                        <p class="mdp">Mot de passe</p>
+                        <div class="mesinputs">
+                            <input type="password" id="login" name="login" placeholder="********">
+                        </div>
+                        <div class="btn-remember">
+                            <input type="checkbox" id="rememberme" name="save" value="savedata">
+                            <label for="rememberme">Se souvenir de moi</label>
+                        </div>
+                        <div class="mdp-oublie">
+                            <a href="#" class="motdepasse">Mot de passe oublié ? </a>
+                        </div>
+                        <div class="lesbtn">
+                            <input type="button" class="button" value="Connexion">
+                        </div>
+                        <p class="ou">ou</p>
+                        <div class="lesbtn">
+                            <input type="button" class="button" value="Créer un compte">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
 
         <a href="#" class="logo">
             <img src="assets/logo.png" alt="logo agence solidaire">
@@ -52,7 +102,7 @@
             <div class="pic4"><img src="./asssets/image2-agence-solidaire.jpg" alt=""></div>
             <div class="pic5"><img src="./asssets/image3-agence-solidaire.jpg" alt=""></div>
             <div class="pic6"><img src="./asssets/image-agence-solidaire.png" alt=""></div>
-            <div class="pic7"><img src="./asssets/image2-agence-solidaire.jpg"alt=""></div>
+            <div class="pic7"><img src="./asssets/image2-agence-solidaire.jpg" alt=""></div>
             <div class="pic8"><img src="./asssets/image-agence-solidaire.png" alt=""></div>
             <div class="pic9"><img src="./asssets/image3-agence-solidaire.jpg" alt=""></div>
         </section>

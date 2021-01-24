@@ -1,0 +1,139 @@
+.modal-dialog {
+    background-color: white;
+}
+
+/* LOGO DE FERMETURE */
+.fa-times-circle {
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 0.3em; 
+    top: 0.3em; 
+}
+/* L'HEXAGONE BLEU */
+.hexablue {
+    margin-top: 10em;
+    height: 20em;
+    position: absolute;
+}
+
+.hex  {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hex .fa-user-circle {
+    font-size: 8em;
+    margin-top: 2em;
+    margin-right: 2.2em;
+    color: white;
+    z-index: 1;
+}
+/* LE TEXT LOGIN */
+.login {
+    text-align: center;
+    margin-top: 5em;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* LA BARRE LOGIN */
+.mesinputs {
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+}
+#login {
+    background-color: #37A8E0;
+    opacity: 60%;
+    color: white;
+    width: 50%;
+    height: 4em;
+    font-size: large;
+}
+/* LE TEXT MDP */
+.mdp {
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* LA BARRE MDP */
+input[type=password] {
+    background-color: #37A8E0;
+    opacity: 60%;
+    color: white;
+    width: 50%;
+    height: 4em;
+    font-size: large;
+}
+/* LE DE SE SOUVENIR DU MDP */
+input[type=checkbox] {
+    color: white;
+    width: 5%;
+    font-size: large;
+    color: black;
+}
+
+.btn-remember {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    font-size: large;
+}
+/* MDP OUBLIÉ */
+.mdp-oublie {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    
+}
+
+.motdepasse {
+    text-decoration:none;
+    color: black;
+    text-decoration: underline;
+    font-size: large;
+}
+/* LES BOUTONS CONNEXION ET CREER UN COMPTE */
+
+.lesbtn {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    background-color: #1E72B9;
+    border-radius: 20px;
+    color: white;
+    padding: 2em 4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0.5;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+  }
+
+
+  /* OU */
+
+ .ou {
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.modal-connexion {
+    padding-top: 20em;
+}
+
+.btn-connex {
+    visibility: hidden;
+}

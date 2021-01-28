@@ -137,3 +137,11 @@ input[type=checkbox] {
 .btn-connex {
     visibility: hidden;
 }
+
+/*RESPONSIVE*/
+
+@media(max-width: 1200px){
+    .hex .fa-user-circle{
+        visibility: hidden;
+    }
+}

@@ -7,10 +7,11 @@ for (i = 0; i < coll.length; i++) {
         if (content.style.visibility === "hidden" || content.style.visibility === "" )
          {
             content.style.visibility = "visible"; 
-            content.style.height = "auto";
+            coll.style.zIndex = "999";
+            // coll.style.position = "absolute";
         }  else {
             content.style.visibility = "hidden";
-            content.style.height = "0px"
+            
         }
 
     });

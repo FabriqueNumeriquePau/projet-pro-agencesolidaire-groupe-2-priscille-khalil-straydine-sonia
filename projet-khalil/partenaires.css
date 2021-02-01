@@ -1,0 +1,12 @@
+.btn-fairedon{
+    background-color: #2C3164;
+    color: white;
+    text-align: center;
+    width: 20%;
+    margin-top: 1%;
+}
+
+div .btn-fairedon{
+    display: flex;
+    flex-direction: column;
+}

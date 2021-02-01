@@ -70,7 +70,7 @@ input[type=password] {
     height: 4em;
     font-size: large;
 }
-/* LE DE SE SOUVENIR DU MDP */
+/* LE SE SOUVENIR DU MDP */
 input[type=checkbox] {
     color: white;
     width: 5%;
@@ -144,4 +144,15 @@ input[type=checkbox] {
     .hex .fa-user-circle{
         visibility: hidden;
     }
+    .btn-remember label{
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    .button{
+        height: 20px;
+        width: 70%;
+        margin-bottom: 10%;
+        padding-bottom: 15%;
+    }
+
 }

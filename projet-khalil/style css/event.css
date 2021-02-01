@@ -50,7 +50,7 @@
   }
 
   .c4{
-    width: 4%;
+    width: 140%;
     font-size: 24pt;
     font-style: normal;
     margin-top: 30px;
@@ -64,6 +64,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .leslogos{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
   }
   
   /* LES ICONES */
@@ -111,4 +116,131 @@
   font-size: 24pt;
   z-index: 1000;
   color: white;
+}
+
+@media(max-width: 768px){
+  .lesevents{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+  }
+  .line1 {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .line2 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .c1 input[type="text"] {
+    width: 100%;
+    height: 50px;
+    font-size: 12pt;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 20%;
+    background-color:rgba(30, 114, 185, 0.6);
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+  }
+  .c2 input[type="text"]{
+    width: 100%;
+    height: 50px;
+    font-size: 12pt;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 20%;
+    background-color:rgba(30, 114, 185, 0.6);
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+
+  .c3 input[type="text"]{
+    width: 100%;
+    height: 50px;
+    font-size: 12pt;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 20%;
+    background-color:rgba(30, 114, 185, 0.6);
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+
+  .c4{
+    width: 30%;
+    height: 50px;
+    font-size: 12pt;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    padding: 0,18em;
+    background-color:rgba(30, 114, 185, 0.6);
+    border-radius: 20px;
+    border: none;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leslogos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fa-map-pin{
+    position: absolute;
+    margin-top: 11.9%;
+    margin-left: 4%;
+    font-size: 12pt;
+    z-index: 1000;
+    color: white;
+}  
+
+.fa-calendar{
+  position: absolute;
+  margin-top: 11.9%;
+  margin-left: 4%;
+  font-size: 12pt;
+  z-index: 1000;
+  color: white;
+}
+
+.fa-stopwatch{
+  position: absolute;
+  margin-top: 11.9%;
+  margin-left: 4%;
+  font-size: 12pt;
+  z-index: 1000;
+  color: white;
+}
+
+.fa-ellipsis-h{
+  position: absolute;
+  margin-top: 11.9%;
+  margin-left: 4%;
+  font-size: 12pt;
+  z-index: 1000;
+  color: white;
+}
+
+.fa-align-left{
+  position: absolute;
+  margin-top: 11.9%;
+  margin-left: 4%;
+  font-size: 12pt;
+  z-index: 1000;
+  color: white;
+}
 }

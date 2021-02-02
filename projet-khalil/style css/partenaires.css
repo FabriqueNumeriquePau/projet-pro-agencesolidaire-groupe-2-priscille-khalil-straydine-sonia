@@ -1,0 +1,114 @@
+
+main{
+    background-image: url(../assets/CARE_Logo_Orange.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.btn-fairedon{
+    background-color: #2C3164;
+    color: white;
+    text-align: center;
+    width: 20%;
+    margin-top: 1%;
+}
+
+div .btn-fairedon{
+    display: flex;
+    flex-direction: column;
+}
+
+.lesbtn1 {
+    margin-top: 10%;
+}
+main>nav ul, nav li{
+    background-color: white;
+}
+
+nav .fil-ariane a{
+    text-decoration: none;
+    color: #B3D78D;
+}
+
+
+nav.breadcrumb{
+    margin-left: 0;
+    margin-top: 20%;
+    width: 20%;
+    background-color: white;
+    color: #B3D78D;
+}
+
+.breadcrumb ul {
+    display: flex;
+    margin-left: 0;
+    margin-top: 20%;
+    width: 100%;
+}
+
+.breadcrumb li::before {
+    content: ">";
+}
+    
+.breadcrumb li:first-child::before {
+    content: "";
+}
+
+h2 {
+    color:#2C3164;
+    text-align: center;
+}
+
+.actualite{
+    display: flex;
+    flex-flow: column wrap;
+    background-image: url(../assets/nidbleu1.png);
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.actualite img{
+    width: 50%;
+    margin-top: 1%;
+}
+
+.lastimg{
+    margin-bottom: 10%;
+   
+}
+
+.imgnews{
+    display: flex;
+}
+.lastnews{
+    display: flex;
+    background-image: url(../assets/nidbleu.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.datenews{
+    margin-left: 1%;
+    margin-right: 10%;
+}
+
+.datenews h3{
+    color: #2273B8;
+    font-size: 30px;
+}
+
+.datenews p{
+    color:#2C3164;
+    font-size: 24px;
+}
+
+.carefr{
+    position: relative;
+    margin-left: 80%;
+    bottom: 2em;
+    font-size:30px ;
+}

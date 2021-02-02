@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sonia-style.css/main.css">
     <link rel="stylesheet" href="./sonia-style.css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Accueil</title>
 </head>
 
 <body>
     <header>
         <div class="icone"><i class="far fa-user-circle"></i></div>
-
         <a href="#" class="logo">
             <img src="./asssets/logo.png" alt="logo agence solidaire">
         </a>
@@ -44,6 +45,20 @@
     </nav>
 
     <main>
+        <section id="container">
+                <video preload="" autoplay="" muted="" playsinline="" loop="">
+                    <source src="../sonia-projet-agence-solidaire/asssets/video.mp4" type="video/mp4"> 
+                </video>
+             <div class="compte"> 
+                <button><a href="">Faire un don</a></button>
+                <button><a href="">Créer un compte</a></button>
+                    <input class="field" type="text" placeholder="Trouver une campagne..."
+                    aria-label="taper votre recherche" />
+                    <button class="loupe"><i class="fas fa-search"></i></button>
+                
+            </div> 
+        </section>
+
         <h1> NOS ACTUALITÉS À LA UNE</h1>
         <section class="bloc1">
             <div class="pic1"><img src="./asssets/image3-agence-solidaire.jpg" alt=""></div>
@@ -52,7 +67,7 @@
             <div class="pic4"><img src="./asssets/image2-agence-solidaire.jpg" alt=""></div>
             <div class="pic5"><img src="./asssets/image3-agence-solidaire.jpg" alt=""></div>
             <div class="pic6"><img src="./asssets/image-agence-solidaire.png" alt=""></div>
-            <div class="pic7"><img src="./asssets/image2-agence-solidaire.jpg"alt=""></div>
+            <div class="pic7"><img src="./asssets/image2-agence-solidaire.jpg" alt=""></div>
             <div class="pic8"><img src="./asssets/image-agence-solidaire.png" alt=""></div>
             <div class="pic9"><img src="./asssets/image3-agence-solidaire.jpg" alt=""></div>
         </section>
@@ -61,23 +76,45 @@
 
 
             <div class="taille1">
-               <!--<img class="nid1" src="./asssets/nid1.png" alt="nid">--> 
+                <img class="nid1" src="./asssets/nid1.png" alt="nid">
             </div>
 
 
             <div class="hexagon"><a href=""><img src="./asssets/sante.png" alt="santé"></a>
                 <p>SANTÉ</p>
             </div>
-            <div class="hexagon1"><a href=""><img src="./asssets/social.png" alt="social"></a>
+            <div class="hexagon"><a href=""><img src="./asssets/social.png" alt="social"></a>
                 <p>SOCIAL</p>
             </div>
-            <div class="hexagon2"><a href=""><img src="./asssets/environnement.png" alt="Environnement"></a>
+            <div class="hexagon"><a href=""><img src="./asssets/environnement.png" alt="Environnement"></a>
                 <p>ENVIRONNEMENT</p>
             </div>
             <div class="taille2">
-                <!-- <img class="nid2" src="./asssets/nid2.png" alt="nid">-->
-             </div>
- 
+                <img class="nid2" src="./asssets/nid2.png" alt="nid">
+            </div>
+
+        </section>
+        <article class="action">
+            <img src="./asssets/image-agence-solidaire.png" alt="">
+            <h1>VOS ACTIONS</h1>
+        </article>
+
+        <section class="prefooter">
+            <div class="sousaction">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h2>Je suis une association ou un collectif</h2>
+                <p>J'ai besoin : </p>
+                <p>- De bénévoles et je publie des missions d’intérêt général</p>
+                <p>- De locaux ou de matériel</p>
+            </div>
+            <div class="sousaction">
+                <i class="fas fa-people-carry"></i>
+                <h2>Je suis un citoyen</h2>
+                <p> Je veux : </p>
+                <P>- M’engager pour des missions de bénévolat, je recherche</br>
+                    des missions d’intérêt général</P>
+                <p>- Être donnateur financier ou matériel</p>
+            </div>
         </section>
 
     </main>
